@@ -1,0 +1,492 @@
+html {
+  --color-gredent: #5fcf80;
+  --color-gery: #5c534a;
+}
+body {
+  position: relative;
+}
+section {
+  padding: 40px;
+}
+.logo a {
+  color: var(--color-gredent);
+}
+/* Start nav and Header */
+#Home .img-home {
+  width: 100%;
+  background: url(../img/hero-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+#Home .layer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#Home .btn {
+  all: unset;
+  background-color: var(--color-gredent);
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s all;
+}
+#Home .btn a {
+  color: white;
+  margin-top: 5px;
+}
+#Home .btn:hover {
+  background-color: #3ac162;
+}
+#Home .Home a {
+  color: var(--color-gredent);
+}
+#Home .navbar-nav {
+  padding-left: 10%;
+}
+#Home .nav-item a:hover {
+  color: var(--color-gredent);
+}
+#Home .btn-Home {
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+}
+#Home .btn-Home a {
+  color: white;
+  border: 2px solid white;
+  padding: 4px 10px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+}
+#Home .text-home h1 {
+  font-size: 4rem;
+}
+#Home .btn-Home a {
+  transition: 0.5s all;
+}
+#Home .btn-Home:hover a {
+  background-color: var(--color-gredent);
+  border: 2px solid var(--color-gredent);
+}
+#Homes .btn {
+  all: unset;
+  background-color: var(--color-gredent);
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s all;
+}
+.text-about {
+  background-color: #5fcf80;
+}
+
+#Homes .btn a {
+  color: white;
+  margin-top: 5px;
+}
+#Homes .btn:hover {
+  background-color: #3ac162;
+}
+#Homes .about a {
+  color: var(--color-gredent);
+}
+#Homes .nav-item a:hover {
+  color: var(--color-gredent);
+}
+#Homes .btn-Home {
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+}
+#Homes .btn-Home a {
+  color: white;
+  border: 2px solid white;
+  padding: 4px 10px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+}
+#Homes .text-home h1 {
+  font-size: 4rem;
+}
+#Homes .btn-Home a {
+  transition: 0.5s all;
+}
+#Homes .btn-Home:hover a {
+  background-color: var(--color-gredent);
+  border: 2px solid var(--color-gredent);
+}
+.stop {
+  width: 40px;
+  height: 40px;
+  background-color: #3ac162;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  cursor: pointer;
+  transition: 0.5s all;
+  position: fixed;
+}
+.stop i {
+  position: absolute;
+  color: white;
+  bottom: 3px;
+  left: 12px;
+  font-size: 1.5rem;
+}
+.stop:hover {
+  background-color: #5fcf80;
+}
+/* Start section two */
+.textleft h3 {
+  color: #444444;
+}
+.textleft p {
+  font-family: serif;
+}
+.textleft p i {
+  color: #3ac162;
+}
+.textleft p {
+  color: var(--color-gery);
+}
+/* Start section three */
+.page3 {
+  background-color: #f6f7f6;
+}
+.page3 h2 {
+  color: #5fcf80;
+}
+/* Start section Four */
+#page4 .text {
+  background-color: #5fcf80;
+  overflow: auto;
+}
+#page4 .betn {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50px;
+  margin-left: 30%;
+  margin-bottom: 10px;
+  transition: 0.5s all;
+}
+#page4 .text .betn a i {
+  transition: 0.3s all;
+}
+#page4 .text .betn a i:hover {
+  color: #5fcf80;
+}
+.text2 {
+  border: 1px solid rgba(95, 206, 185, 0.2);
+}
+.text2 p {
+  padding-bottom: 20px;
+  color: #999999;
+}
+.icons {
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+  margin-left: 40%;
+  background-color: rgba(95, 206, 185, 0.2);
+}
+.icons i {
+  padding-left: 25px;
+  padding-top: 15px;
+}
+#colems .restert {
+  border: 1px solid rgba(95, 206, 185, 0.2);
+}
+#colems .restert a {
+  all: unset;
+}
+#colems .restert h5 {
+  transition: 0.3s all;
+  cursor: pointer;
+  color: var(--color-gery);
+}
+#colems .restert {
+  transition: 0.3s all;
+}
+#colems .restert:hover {
+  border: 1px solid var(--color-gredent);
+}
+#colems .restert:hover h5 {
+  color: var(--color-gredent);
+}
+/* Start Section Five */
+#card-page6 .section-title h2 {
+  font-size: 1.5rem;
+  color: #afaaaa;
+}
+#card-page6 .section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: inline-block;
+  background: #9ae1af;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+/* Start section six */
+#card-page6 .text-card-page6 .boten {
+  display: inline-block;
+  background-color: #5fcf80;
+}
+#card-page6 figcaption .text-uy p {
+  color: #5c534a;
+}
+#card-page6 figcaption hr {
+  width: 90%;
+  margin-left: 5%;
+}
+#card-page6 figcaption .imge-card img {
+  width: 50px;
+}
+#card-page6 .card1 {
+  border: 1px solid #eef0ef;
+}
+#card-page6 .card1 .text-hover a h4 {
+  transition: 0.3s all;
+  color: black;
+  width: 75%;
+}
+#card-page6 .card1 .text-hover a h4:hover {
+  color: #5fcf80;
+}
+/* Start Section Seven */
+#card-last .card {
+  border: 1px solid rgba(95, 206, 185, 0.2);
+}
+#card-last .card figcaption h3 {
+  color: black;
+  font-size: 1.2rem;
+}
+#card-last .card figcaption h5 {
+  color: #444444;
+  font-size: 0.7rem;
+}
+#card-last .card figcaption p {
+  color: #444444;
+  font-size: 0.9rem;
+}
+#card-last .card figcaption .icons-card i {
+  color: #444444;
+  transition: 0.3s all;
+}
+#card-last .card figcaption .icons-card i:hover {
+  color: #3ac162;
+}
+/* Start Footer */
+.last-page {
+  background-color: #f9faf9;
+}
+.last-page .text1-lastpage p {
+  color: #5c534a;
+}
+.last-page .text2-lastpage p {
+  color: #5c534a;
+  transition: 0.3s all;
+}
+.last-page .text2-lastpage p:hover {
+  color: #3ac162;
+}
+.last-page .text2-lastpage input {
+  width: 100%;
+  border-radius: 50px;
+  border: 1px solid #e0e5e2;
+}
+.last-page .text2-lastpage button {
+  background-color: #5fcf80;
+  border: 1px solid #5fcf80;
+  border-radius: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  transition: 0.3s all;
+}
+.last-page .text2-lastpage button:hover {
+  background-color: #3ac162;
+}
+.last-page .text2-lastpage:focus input {
+  border: none;
+}
+footer {
+  background-color: #eef0ef;
+}
+footer i {
+  background-color: #5fcf80;
+  color: white;
+  border-radius: 50%;
+  transition: 0.3s all;
+}
+footer i:hover {
+  background-color: #3ac162;
+}
+/* page about */
+.coures-border {
+  border: 1px solid slategray;
+}
+.carousel-item .image-cours-one img {
+  width: 100px;
+  height: 100px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #3ac162;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #3ac162;
+}
+/* start page Event */
+.card-one-Events {
+  position: relative;
+  transition: 0.3s all;
+  margin-bottom: 40%;
+}
+.card-one-Events h4 {
+  transition: 0.3s all;
+}
+.card-one-Events figure {
+  overflow: hidden;
+}
+.card-one-Events img {
+  transition: 0.3s all;
+}
+.card-one-Events img:hover {
+  transform: scale(1.1);
+}
+.text-card-one-Events {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  right: 5%;
+  border-width: 4px 0 0 0;
+  border-style: solid;
+  border-color: transparent;
+  transition: 0.3s all;
+  z-index: 0;
+}
+.card-one-Events:hover h4 {
+  color: #3ac162;
+}
+.card-one-Events:hover .text-card-one-Events {
+  border-width: 4px 0 0 0;
+  border-style: solid;
+  border-color: #3ac162;
+}
+/* start page pricing */
+.card-one-pricing {
+  border: 1px solid #eef0ef;
+}
+.text-body-tertiary {
+  color: #babac9;
+}
+.card-one-pricing button {
+  color: white;
+  background-color: #5fcf80;
+  border-radius: 50px;
+  border: none;
+  display: inline-block;
+  transition: 0.3s all;
+}
+.card-one-pricing button:hover {
+  background-color: #3ac162;
+}
+.bg-Business {
+  background-color: #5fcf80;
+}
+.relativ-card {
+  position: relative;
+}
+.absoltive-card {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 1.2rem;
+  right: -3.4rem;
+  background-color: #3ac162;
+  color: white;
+  width: 60%;
+}
+/* about */
+.carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.text-client h6 {
+  line-height: 0.2rem;
+  padding-top: 1.3rem;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5fcf80;
+  border: 1px solid #3ac162;
+}
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #3ac162;
+}
+/* location */
+.location iframe {
+  width: 100%;
+}
+/* Contact */
+.locations h3 {
+  font-weight: 400;
+}
+.locations i {
+  color: #3ac162;
+  background-color: #cde9d5;
+  border-radius: 50%;
+  transition: 0.3s all;
+}
+.locations:hover i {
+  background-color: #5fcf80;
+  color: white;
+}
+.conection-input input {
+  border: 1px solid #eef0f2;
+}
+.conection-input input:focus {
+  border: 1px solid #3ac162;
+}
+input {
+  border: 1px solid #eef0f2;
+}
+
+textarea {
+  border: 1px solid #eef0f2;
+}
+.buttons button{
+  background-color: #5fcf80;
+  color: white;
+  transition: 0.3s all;
+  text-align: center;
+  border: 1px  solid  #5fcf80;
+  border-radius: 50px;
+  display: inline-block;
+}
+.buttons button:hover{
+  background-color: #3ac162;
+}
